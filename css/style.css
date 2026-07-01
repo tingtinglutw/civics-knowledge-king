@@ -1390,3 +1390,13 @@ body[data-lesson="5"] .evidence-card span {
 .review-bottom-action .main-btn {
   min-width: min(320px, 100%);
 }
+
+
+/* Strong bottom placement for review bulk action */
+.review-bottom-action {
+  grid-column: 1 / -1;
+  width: 100%;
+  margin-top: 22px;
+  padding: 22px 0 8px;
+  border-top: 3px dashed rgba(93, 148, 171, .35);
+}
