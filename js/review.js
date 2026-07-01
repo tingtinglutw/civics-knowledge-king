@@ -64,8 +64,9 @@
     root.innerHTML =
       '<header class="game-topbar"><div><p class="lesson-title">' + config.lessonTitle + '</p><h1>專有名詞</h1></div>' +
       '<div class="review-nav"><a class="secondary-btn" href="../games/lesson' + lesson + '.html">開始闖關</a><a class="ghost-link" href="../index.html">回首頁</a></div></header>' +
-      '<section class="review-check-panel"><div><strong>複習章進度：' + done + ' / ' + terms.length + '</strong><p>讀完一張卡後按「我看過了」，首頁會留下紀錄。</p></div><button class="main-btn" type="button" onclick="markAllReviewTerms()">全部都看過了</button></section>' +
-      '<section class="term-review-grid">' + cards + '</section>';
+      '<section class="review-check-panel"><div><strong>複習章進度：' + done + ' / ' + terms.length + '</strong><p>讀完一張卡後按「我看過了」，首頁會留下紀錄。</p></div></section>' +
+      '<section class="term-review-grid">' + cards + '</section>' +
+      '<section class="review-bottom-action"><button class="main-btn" type="button" onclick="markAllReviewTerms()">全部都看過了</button></section>';
   }
 
   window.toggleReviewTerm = toggleTerm;

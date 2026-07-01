@@ -1377,3 +1377,16 @@ body[data-lesson="5"] .evidence-card span {
   background: linear-gradient(180deg, #8fd4ff, #6fbce9);
   box-shadow: inset 0 2px 0 rgba(255,255,255,.52), 0 4px 0 rgba(79, 139, 174, .24);
 }
+
+
+/* Move review bulk-check action to the end */
+.review-bottom-action {
+  display: flex;
+  justify-content: center;
+  margin: 18px 0 4px;
+  padding: 16px;
+}
+
+.review-bottom-action .main-btn {
+  min-width: min(320px, 100%);
+}
